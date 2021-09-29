@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 
 nav{
@@ -30,7 +33,7 @@ nav{
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     color: black;
 }
 
@@ -49,11 +52,11 @@ nav{
     height: 3px;
     margin: 5px;
     background-color: whitesmoke;
+    transition: all 0.3s ease;
 
 }
 @media screen and (max-width:1024px){
     .nav-links{
-        
     width: 60%;
     }
 
@@ -83,7 +86,43 @@ nav{
     }
 
 }
-   
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFadeIn{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes navLinkFadeOut{
+    from{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    to{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(+45deg) translate(-5px, -5px);
+}  
   
 
 /* title section*/
@@ -103,6 +142,85 @@ nav{
     width: 150px;
 }
 
-ion-icon{
-    font-size: 35px;
+.title ion-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
+.datasets{
+    margin: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    width: fit-content;
+}
+.card{
+    
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: fit-content;
+    margin: 20px;
+    padding: 5px;
+}
+
+.d-title{
+    font-size: 20px;
+    font-weight:100;
+    text-transform: capitalize; 
+    border-right: 2px solid black;
+    line-height: 25px;
+    padding-right: 5px;
+
+    
+    
+}
+
+.util{
+    width:100px;
+    height:fit-content;
+    /* border: 3px solid cadetblue ; */
+    border-radius: 7px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.d-logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-button{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border:none
+}
+
+
+@media (max-width:768px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
