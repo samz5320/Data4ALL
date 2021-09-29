@@ -57,7 +57,7 @@ nav{
 }
 @media screen and (max-width:1024px){
     .nav-links{
-    width: 60%;
+    width: 50%;
     }
 
 }
@@ -147,6 +147,9 @@ nav{
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    z-index: 1;
+    display:flex;
+    position:relative;
 }
 .datasets{
     margin: 45px;
