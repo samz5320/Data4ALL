@@ -87,14 +87,14 @@ ul {
     margin: 5px;
     transition: all 0.3s ease;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
     nav-links{
         width: 60%;
     }
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     body{
         overflow-x: hidden;
     }
@@ -102,13 +102,13 @@ ul {
         
         position: absolute;
         right: 0px;
-        height: 92vh;
-        top: 8vh;
+        height: 100vh;
+        top: 10vh;
         background-color: #5d4954;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        width: 20%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
