@@ -1,22 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme="dark" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./base.css">
     <title>Data4ALL</title>
+    <script type="text/javascript">
+        // Wait for document to load
+        document.addEventListener("DOMContentLoaded", function(event) {
+          document.documentElement.setAttribute("data-theme", "light");
+      
+          // Get our button switcher
+          var themeSwitcher = document.getElementById("theme-switcher");
+      
+          // When our button gets clicked
+          themeSwitcher.onclick = function() {
+            // Get the current selected theme, on the first run
+            // it should be `light`
+            var currentTheme = document.documentElement.getAttribute("data-theme");
+      
+            // Switch between `dark` and `light`
+            var switchToTheme = currentTheme === "dark" ? "light" : "dark"
+      
+            // Set our currenet theme to the new one
+            document.documentElement.setAttribute("data-theme", switchToTheme);
+          }
+        });
+      </script>
 </head>
 <body>
     <nav>
         <div class="logo">
-            <h4>Data4ALL</h4>
+            <h4>Data<span class="logo-span">4</span>ALL</h4>
         </div>
         <ul class="nav-links">
-            <li><a href="#">type1</a></li>
-            <li><a href="#">type2</a></li>
-            <li><a href="#">type3</a></li>
-            <li><a href="#">type4</a></li>
+            <li><a href="#">beginner</a></li>
+            <li><a href="#">intermediate</a></li>
+            <li><a href="#">advanced</a></li>
+            <button id="theme-switcher" class="theme">theme</button>
         </ul>
         <div class="burger">
             <div class="line1"></div>
