@@ -56,6 +56,13 @@ ul {
     font-weight: bold;
     color: tomato; 
   }
+
+.adv::before{
+    color: greenyellow;
+}
+.beginner::before{
+    color: orange;
+}
 /* ul li::before {
     
     content: "\2022";
