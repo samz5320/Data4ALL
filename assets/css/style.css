@@ -151,6 +151,15 @@ ul li::before {
  transition: all 0.3s ease;
 }
 
+.copy-button {
+  cursor: pointer;
+  display:block;
+  padding: 0.4rem;
+  border: none;
+  border-radius: 0.3em;
+  background-color: var(--clr-accent);
+}
+
 #theme-switcher{
   width: 6.5em;
   height: 3em;
@@ -368,15 +377,7 @@ a {
   border: none;
 }
 
-.copy-button {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0.6rem;
-  border: none;
-  border-radius: 0.3em;
-  background-color: var(--clr-accent);
-  font-size: 1.2em;
-}
+
 
 }
 
@@ -389,5 +390,4 @@ a {
 
 .d-title li::before {
   list-style-type: none;
-}
 }
