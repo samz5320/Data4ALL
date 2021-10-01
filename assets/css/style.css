@@ -80,6 +80,10 @@ ul li::before {
   font-size: 20px;
 }
 
+.theme {
+  cursor: pointer;
+}
+
 .burger {
   display: none;
   cursor: pointer;
@@ -258,6 +262,10 @@ a {
   align-items: center;
   font-size: 25px;
   border: none;
+}
+
+.copy-button {
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
