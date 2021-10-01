@@ -35,6 +35,6 @@
 
 ## Contributing To This Project:
 
-### Make sure you read the [contributing.md](https://github.com/samz5320/Data4ALL/blob/main/CONTRIBUTING.md) file before contributing. Please be nice and respectul towards everyone. 
+### Make sure you read the [contributing.md](https://github.com/samz5320/Data4ALL/blob/main/CONTRIBUTING.md) file before contributing. Please be nice and respectful towards everyone. 
 <hr>
 <h3 align="center">Made With 💖 By Developers for YOU!</h4>

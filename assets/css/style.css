@@ -48,7 +48,7 @@ ul {
     padding: 0;
     margin: 0;
   }
-  li::before {
+ul li::before {
       margin: 10px;
     content: "\2022";
     font-size: 20px;
@@ -290,4 +290,8 @@ a{
     width: 70px;
     font-size: 20px;
     font-family: 'Mulish', sans-serif;
+}
+
+.d-title li::before{
+    list-style-type: none;
 }
