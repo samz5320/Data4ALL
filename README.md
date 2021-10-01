@@ -1,7 +1,7 @@
 
 <h1 align=center>Data4ALL Website</h1>
 
-<h3 align=center a href="https://samz5320.github.io/Data4ALL/"> Website!</h3>
+<h3 align=center> <a href="https://samz5320.github.io/Data4ALL/"> Website!</a></h3>
 
 
 ### All the datasets you need in one place
