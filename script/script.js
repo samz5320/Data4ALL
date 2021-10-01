@@ -37,3 +37,8 @@ const navSlide = () => {
 
 }
 navSlide();
+
+function copy(id){           //id is parameter
+    Url = document.getElementById(id).href;
+    navigator.clipboard.writeText(Url);
+}

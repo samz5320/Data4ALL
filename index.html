@@ -65,11 +65,11 @@
             </p>
             <div class="util">
                 <div class="d-logo">
-                    <button class="logo-button"><a href="./datasets/Iris.csv" download="iris.csv">
+                    <button class="logo-button"><a id="d-iris" href="./datasets/Iris.csv" download="iris.csv">
                         <ion-icon name="download-outline"></ion-icon></a></button>
                 </div>
                 <div class="copy-link">
-                    <button class="copy-button">Copy Link</button>
+                    <button class="copy-button" onclick="copy('d-iris')">Copy Link</button>     <!-- Use copy() function to copy links to clipboard by providing id of the anchor tag-->
                 </div>
             </div>
         </div> 
@@ -80,11 +80,11 @@
             </p>
                 <div class="util">
                     <div class="d-logo">
-                        <button class="logo-button"><a href="./datasets/titanic.csv" download="Titanic.csv">
+                        <button class="logo-button"><a id="d-titanic" href="./datasets/titanic.csv" download="Titanic.csv">
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button">Copy Link</button>
+                        <button class="copy-button" onclick="copy('d-titanic')">Copy Link</button>
                     </div>
                 </div>
         </div>
