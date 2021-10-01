@@ -21,9 +21,9 @@
 
 5. if everything looks good ,go ahead and send a Pull Request.
 
-6. Sit back and relax your changes get reviewed.
+6. Sit back and relax as your changes get reviewed.
 
-7. Perform changes if any suggested .
+7. Perform changes if any suggested .s
 
 #### Thank you for contribution.
 
