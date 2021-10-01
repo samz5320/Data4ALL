@@ -5,7 +5,7 @@
 
 ##### Drop in any datasets that you can find.
 
-   1. Add your datasets file to the datasets folder
+   1. Add your datasets file in the datasets folder
    2. make changes in index.html
    3. follow the comments for more help in the index.html file
    4. test the changes in your localhost
