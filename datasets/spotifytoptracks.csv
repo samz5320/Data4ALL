@@ -1,0 +1,51 @@
+,artist,album,track_name,track_id,energy,danceability,key,loudness,acousticness,speechiness,instrumentalness,liveness,valence,tempo,duration_ms,genre
+0,The Weeknd,After Hours,Blinding Lights,0VjIjW4GlUZAMYd2vXMi3b,0.73,0.514,1,-5.934,0.00146,0.0598,9.54e-05,0.0897,0.334,171.005,200040,R&B/Soul
+1,Tones And I,Dance Monkey,Dance Monkey,1rgnBhdG2JDFTbYkYRZAku,0.593,0.825,6,-6.401,0.688,0.0988,0.000161,0.17,0.54,98.078,209755,Alternative/Indie
+2,Roddy Ricch,Please Excuse Me For Being Antisocial,The Box,0nbXyq5TXYPCO7pr3N8S4I,0.586,0.896,10,-6.687,0.104,0.0559,0.0,0.79,0.642,116.971,196653,Hip-Hop/Rap
+3,SAINt JHN,Roses (Imanbek Remix),Roses - Imanbek Remix,2Wo6QQD1KMDWeFkkjLqwx5,0.721,0.785,8,-5.457,0.0149,0.0506,0.00432,0.285,0.894,121.962,176219,Dance/Electronic
+4,Dua Lipa,Future Nostalgia,Don't Start Now,3PfIrDoz19wz7qK7tYeu62,0.793,0.793,11,-4.521,0.0123,0.083,0.0,0.0951,0.679,123.95,183290,Nu-disco
+5,DaBaby,BLAME IT ON BABY,ROCKSTAR (feat. Roddy Ricch),7ytR5pFWmSjzHJIeQkgog4,0.69,0.746,11,-7.956,0.247,0.164,0.0,0.101,0.497,89.977,181733,Hip-Hop/Rap
+6,Harry Styles,Fine Line,Watermelon Sugar,6UelLqGlWMcVH1E5c4H7lY,0.816,0.548,0,-4.209,0.122,0.0465,0.0,0.335,0.557,95.39,174000,Pop
+7,Powfu,death bed (coffee for your head),death bed (coffee for your head),7eJMfftS33KTjuF7lTsMCx,0.431,0.726,8,-8.765,0.731,0.135,0.0,0.696,0.348,144.026,173333,Hip-Hop/Rap
+8,Trevor Daniel,Nicotine,Falling,2rRJrJEo19S2J82BDsQ3F7,0.43,0.784,10,-8.756,0.123,0.0364,0.0,0.0887,0.236,127.087,159382,R&B/Hip-Hop alternative
+9,Lewis Capaldi,Divinely Uninspired To A Hellish Extent,Someone You Loved,7qEHsqek33rTcFNT9PFqLf,0.405,0.501,1,-5.679,0.751,0.0319,0.0,0.105,0.446,109.891,182161,Alternative/Indie
+10,KAROL G,Tusa,Tusa,7k4t7uLgtOxPwTpFmtJNTY,0.715,0.803,2,-3.28,0.295,0.298,0.000134,0.0574,0.574,101.085,200960,Pop
+11,Arizona Zervas,ROXANNE,ROXANNE,696DnlkuDOXcMAnKlTgXXK,0.601,0.621,6,-5.616,0.0522,0.148,0.0,0.46,0.457,116.735,163636,Hip-Hop/Rap
+12,Post Malone,Hollywood's Bleeding,Circles,21jGcNKet2qwijlDFuPiPb,0.762,0.695,0,-3.497,0.192,0.0395,0.00244,0.0863,0.553,120.042,215280,Pop/Soft Rock
+13,Lil Mosey,Certified Hitmaker,Blueberry Faygo,22LAwLoDA5b4AaGSkg6bKW,0.554,0.774,0,-7.909,0.207,0.0383,0.0,0.132,0.349,99.034,162547,Hip-Hop/Rap
+14,Justin Bieber,Changes,Intentions (feat. Quavo),4umIPjkehX1r7uhmGvXiSV,0.546,0.806,9,-6.637,0.3,0.0575,0.0,0.102,0.874,147.986,212867,Pop
+15,Drake,Dark Lane Demo Tapes,Toosie Slide,466cKvZn1j45IpxDdYZqdA,0.49,0.83,1,-8.82,0.289,0.209,3.04e-06,0.113,0.845,81.604,247059,Hip-Hop/Rap
+16,Lewis Capaldi,Divinely Uninspired To A Hellish Extent (Extended Edition),Before You Go,2gMXnyrvIjhVBUZwvLZDMP,0.575,0.459,3,-4.858,0.604,0.0573,0.0,0.0885,0.183,111.881,215107,Alternative/Indie
+17,Doja Cat,Hot Pink,Say So,3Dv1eDb0MEgF93GpLXlucZ,0.673,0.787,11,-4.577,0.256,0.158,3.57e-06,0.0904,0.786,110.962,237893,R&B/Soul
+18,Maroon 5,Memories,Memories,2b8fOow8UzyDFAE27YhOZM,0.32,0.764,11,-7.209,0.837,0.0546,0.0,0.0822,0.575,91.019,189486,Pop
+19,Future,High Off Life,Life Is Good (feat. Drake),1K5KBOgreBi5fkEHvg5ap3,0.574,0.795,2,-6.903,0.067,0.487,0.0,0.15,0.537,142.053,237918,Hip-Hop/Rap
+20,Jawsh 685,Savage Love (Laxed - Siren Beat),Savage Love (Laxed - Siren Beat),1xQ6trAsedVPCdbtDAmk0c,0.481,0.767,0,-8.52,0.234,0.0803,0.0,0.269,0.761,150.076,171375,Hip-Hop/Rap
+21,Harry Styles,Fine Line,Adore You,3jjujdWJ72nww5eGnfs2E7,0.771,0.676,8,-3.675,0.0237,0.0483,7e-06,0.102,0.569,99.048,207133,Pop
+22,Topic,Breaking Me,Breaking Me,3H7ihDc1dqLriiWXwsc2po,0.72,0.789,8,-5.652,0.223,0.218,0.0,0.129,0.664,122.031,166794,Dance/Electronic
+23,24kGoldn,Mood (feat. iann dior),Mood (feat. iann dior),3tjFYV6RSFtuktYl3ZtYcq,0.722,0.7,7,-3.558,0.221,0.0369,0.0,0.272,0.756,90.989,140526,Pop rap
+24,Billie Eilish,everything i wanted,everything i wanted,3ZCTVFBt2Brf31RLEnCkWJ,0.225,0.704,6,-14.454,0.902,0.0994,0.657,0.106,0.243,120.006,245426,Pop
+25,Shawn Mendes,Shawn Mendes (Deluxe),Señorita,6v3KW9xbzN5yKLt9YKDYA2,0.548,0.759,9,-6.049,0.0392,0.029,0.0,0.0828,0.749,116.967,190800,Pop
+26,Billie Eilish,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",bad guy,2Fxmhks0bxGSBdJ92vM42m,0.425,0.701,7,-10.965,0.328,0.375,0.13,0.1,0.562,135.128,194088, Electro-pop
+27,Cardi B,WAP (feat. Megan Thee Stallion),WAP (feat. Megan Thee Stallion),4Oun2ylbjFKMPTiaSbbCih,0.454,0.935,1,-7.509,0.0194,0.375,0.0,0.0824,0.357,133.073,187541,Hip-Hop/Trap
+28,Surfaces,Where the Light Is,Sunday Best,1Cv1YLb4q0RzL6pybtaMLo,0.525,0.878,5,-6.832,0.183,0.0578,0.0,0.0714,0.694,112.022,158571, Electro-pop
+29,Eminem,Music To Be Murdered By,Godzilla (feat. Juice WRLD),7FIWs0pqAYbP91WWM0vlTQ,0.745,0.808,10,-5.26,0.145,0.342,0.0,0.292,0.829,165.995,210800,Hip-Hop/Rap
+30,Justin Bieber,Changes,Yummy,16wAOAZ2OkqoIDN7TpChjR,0.506,0.676,9,-6.652,0.345,0.0958,0.0,0.118,0.497,145.842,208520,Pop
+31,Dua Lipa,Future Nostalgia,Break My Heart,017PF4Q3l4DBUiWoXk4OWT,0.729,0.73,4,-3.434,0.167,0.0883,1.39e-06,0.349,0.467,113.013,221820,Dance-pop/Disco
+32,BTS,Dynamite (DayTime Version),Dynamite,0t1kP63rueHleOhQkYSXFY,0.765,0.746,6,-4.41,0.0112,0.0993,0.0,0.0936,0.737,114.044,199054,Disco-pop
+33,BENEE,Hey u x,Supalonely (feat. Gus Dapperton),3GZoWLVbmxcBys6g0DLFLf,0.631,0.862,7,-4.746,0.291,0.0515,0.000209,0.123,0.841,128.978,223488,Alternative/Indie
+34,Surf Mesa,ily (i love you baby) (feat. Emilee),ily (i love you baby) (feat. Emilee),62aP9fBQKYKxi7PDXwcUAS,0.774,0.674,11,-7.567,0.0686,0.0892,0.00188,0.393,0.33,112.05,176547,Dance/Electronic
+35,Lady Gaga,Chromatica,Rain On Me (with Ariana Grande),7ju97lgwC2rKQ6wwsf9no9,0.855,0.672,9,-3.764,0.021,0.0397,0.0,0.323,0.646,123.056,182200,Pop
+36,Travis Scott,HIGHEST IN THE ROOM,HIGHEST IN THE ROOM,3eekarcy7kvN4yt5ZFzltW,0.427,0.598,7,-8.764,0.0546,0.0317,5.83e-06,0.21,0.0605,76.469,175721,Hip-Hop/Rap
+37,Post Malone,Hollywood's Bleeding,Sunflower - Spider-Man: Into the Spider-Verse,0RiRZpuVRbi7oqRdSMwhQY,0.522,0.755,2,-4.368,0.533,0.0575,0.0,0.0685,0.925,89.96,157560,Dreampop/Hip-Hop/R&B
+38,Maluma,PAPI JUANCHO,Hawái,1yoMvmasuxZfqHEipJhRbp,0.727,0.783,6,-3.454,0.185,0.389,2.46e-05,0.0626,0.558,180.067,199112,Pop
+39,Regard,Ride It,Ride It,2tnVG71enUj33Ic2nFN6kZ,0.751,0.88,7,-4.258,0.177,0.0874,6.43e-05,0.106,0.884,117.948,157606,Dance/Electronic
+40,Travis Scott,Birds In The Trap Sing McKnight,goosebumps,6gBFPUFcJLzWGx4lenP6h2,0.728,0.841,7,-3.37,0.0847,0.0484,0.0,0.149,0.43,130.049,243837,Hip-Hop/Rap
+41,Black Eyed Peas,Translation,RITMO (Bad Boys For Life),4NCsrTzgVfsDo8nWyP8PPc,0.704,0.723,10,-7.088,0.0259,0.0571,0.00109,0.792,0.684,105.095,214935,Pop
+42,THE SCOTTS,THE SCOTTS,THE SCOTTS,39Yp9wwQiSRIDOvrVg7mbk,0.537,0.716,0,-7.648,0.233,0.0514,0.0,0.157,0.28,129.979,165978,Hip-Hop/Rap
+43,Bad Bunny,YHLQMDLG,Safaera,2DEZmgHKAvm41k4J3R2E9Y,0.829,0.607,2,-4.074,0.0103,0.379,0.0,0.107,0.685,96.172,295177,Alternative/reggaeton/experimental
+44,Billie Eilish,lovely (with Khalid),lovely (with Khalid),0u2P5u6lvoDfwTYjAADbn4,0.296,0.351,4,-10.109,0.934,0.0333,0.0,0.095,0.12,115.284,200186,Chamber pop
+45,Juice WRLD,Goodbye & Good Riddance,Lucid Dreams,285pBltuF7vW8TeWk8hdRR,0.566,0.511,6,-7.23,0.349,0.2,0.0,0.34,0.218,83.903,239836,Pop
+46,Ariana Grande,Stuck with U,Stuck with U (with Justin Bieber),4HBZA5flZLE435QTztThqH,0.45,0.597,8,-6.658,0.223,0.0418,0.0,0.382,0.537,178.765,228482,Pop
+47,JP Saxe,If the World Was Ending (feat. Julia Michaels),If the World Was Ending - feat. Julia Michaels,2kJwzbxV2ppxnQoYw4GLBZ,0.473,0.464,1,-10.086,0.866,0.129,0.0,0.109,0.604,75.801,208687,Pop
+48,Dua Lipa,Future Nostalgia,Physical,3AzjcOeAmA57TIOr9zF1ZW,0.844,0.647,0,-3.756,0.0137,0.0457,0.000658,0.102,0.746,146.967,193829,Dance/Electronic
+49,Travis Scott,ASTROWORLD,SICKO MODE,2xLMifQCjDGFmkHkpNLD9h,0.73,0.834,8,-3.714,0.00513,0.222,0.0,0.124,0.446,155.008,312820,Hip-Hop/Rap
