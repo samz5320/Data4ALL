@@ -1,6 +1,6 @@
 # Guidelines to Contribute:
 
-:+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
+:+1::tada: First off all, thanks for taking the time to contribute! :tada::+1:
 
 ### To start contributing, kindly follow the below guidelines:
   
@@ -24,7 +24,7 @@ git checkout -b <your_branch_name_here>
 ```
 git add .
 ```
-  6. Commit ur changes with a message indicating the change you made. For example : "add new dataset"
+  6. Commit your changes with a message indicating the change you made. For example : "add new dataset"
 ```
 git commit -m "your message"
 ```
