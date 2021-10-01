@@ -35,9 +35,10 @@
             <h4>Data<span class="logo-span">4</span>ALL</h4>
         </div>
         <ul class="nav-links">
-            <li class="beginner"><a href="#">beginner</a></li>
-            <li class="inter"><a href="#">intermediate</a></li>
-            <li class="adv"><a href="#">advanced</a></li>
+            <li class="all"><a href="#" onclick="filterSelection('all')">all</a></li>
+            <li class="beginner"><a href="#" onclick="filterSelection('beginner-db')">beginner</a></li>
+            <li class="inter"><a href="#" onclick="filterSelection('intermediate-db')">intermediate</a></li>
+            <li class="adv"><a href="#" onclick="filterSelection('advanced-db')">advanced</a></li>
             <button id="theme-switcher" class="theme">theme</button>
         </ul>
         <div class="burger">
@@ -59,7 +60,7 @@
 
 <section class="datasets">
     <div class="cards">
-        <div class="card"> 
+        <div class="card beginner-db"> 
             <p class="d-title">
                 <ul><li class="beginner">Iris Dataset</li></ul>
             </p>
@@ -74,13 +75,29 @@
             </div>
         </div> 
 
-        <div class="card">
+        <div class="card beginner-db">
             <p class="d-title">
                 <ul><li class="beginner">Titanic Dataset</li></ul>
             </p>
                 <div class="util">
                     <div class="d-logo">
                         <button class="logo-button"><a href="./datasets/titanic.csv" download="Titanic.csv">
+                            <ion-icon name="download-outline"></ion-icon></a></button>
+                    </div>
+                    <div class="copy-link">
+                        <button class="copy-button">Copy Link</button>
+                    </div>
+                </div>
+        </div>
+
+
+        <div class="card intermediate-db">
+            <p class="d-title">
+                <ul><li class="inter">Weather History</li></ul>
+            </p>
+                <div class="util">
+                    <div class="d-logo">
+                        <button class="logo-button"><a href="./datasets/weatherHistory.xlsx" download="weatherHistory.xlsx">
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
@@ -100,7 +117,7 @@
                 <div class="copy-link">
                     <button class="copy-button">Copy Link</button>
                 </div>
-            </div>
+            </div> 
         </div> -->  
  <!--  copy codeblock till here   --> 
   <!--  paste codeblock  here and make changes  -->           
