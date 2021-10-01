@@ -17,6 +17,9 @@ body {
   color: var(--text-color);
 }
 
+.copy-button{
+  cursor: pointer;
+}
 nav {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   display: flex;
@@ -279,6 +282,7 @@ a {
   width: 70px;
   font-size: 20px;
   font-family: "Mulish", sans-serif;
+  cursor:pointer;
 }
 
 .d-title li::before {
