@@ -66,6 +66,8 @@ git push -u origin <branch-name>
     * :arrow_down: `:arrow_down:` when downgrading dependencies
     * :shirt: `:shirt:` when removing linter warnings
   
+## What can you contribute?
+You can add datasets, update/edit html CSS files or fix bugs after testing the site. See README.md for site link. If you're adding a dataset then don't forget to update index.html file so that it can be added and work properly as other sets.
 ## PR Review
 Your PR will get reviewed soon from the maintainers of the project. If they suggest changes, do all the changes, commit the changes, rebase the branch, squash the commits and push the changes. If everything looks good, your PR will be merged. That's it! Thank you for your contribution! Feel free to suggest any changes to this documentation.
 
