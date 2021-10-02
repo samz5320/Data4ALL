@@ -105,19 +105,13 @@ nav ul li{
  }
 
 ul li::before {
-  /* margin: 10px; */
-  /* content: "";
-  /* font-size: 1.5em;
-  position: absolute; */
-  /* width: 10px;
-  height : 10px;
-  border-radius: 50%; */ 
-  /* top: 35%;
-  left: -0.5em; */
   margin: 10px;
  content: "\2022";
  font-size: 20px;
  font-weight: bold;
+}
+.all::before{
+  color: pink;
 }
 
 .adv::before{
@@ -334,6 +328,11 @@ nav ul li{
   margin: 20px;
   padding: 5px;
 }
+
+.show{
+  display: flex;
+}
+
 
 .d-title {
   font-size: 20px;
