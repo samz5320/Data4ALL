@@ -120,6 +120,13 @@ ul li::before {
 .inter::before{
   color: var(--clr-int);
 }
+.all::before{
+  color: pink;
+}
+
+.adv::before {
+  color: greenyellow;
+}
 .beginner::before{
  color: var(--clr-beg);
 }
@@ -319,7 +326,7 @@ nav ul li{
   box-shadow: rgba(90, 90, 90, 0.2) 0px 2px 8px 0px;
   display: flex;
 
-  display: flex;
+  /* display: none; */
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
