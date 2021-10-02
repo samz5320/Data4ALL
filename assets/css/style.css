@@ -6,7 +6,7 @@
   /* Color Palette */
   --clr-font : #000;
   --clr-main : #fff;
-  --clr-accent: #169b9b;
+  --clr-accent: #61c7c7;
   --clr-beg : #ffa500;
   --clr-int : #ff6347;
   --clr-adv : #adff2f;
@@ -163,6 +163,7 @@ ul li::before {
   border: none;
   border-radius: 0.3em;
   background-color: var(--clr-accent);
+  
 }
 #theme-switcher{
   width: 4.5em;
