@@ -5,8 +5,8 @@
 
 
 ### All the datasets you need in one place
-
-  
+<h2 align=center>What is Dataset?</h2>
+  dataset is a collection of data which can be normally found in CSV files but that's not the only format. CSV files are meant to be comma separated list files which can be also in tabular form.
 
 ### Drop in any datasets that you can find
 
