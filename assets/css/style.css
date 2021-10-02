@@ -329,7 +329,7 @@ nav ul li{
   display: flex;
 
   display: none;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
