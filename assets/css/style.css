@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
-
+  
 * {
   padding: 0;
   margin: 0;
@@ -56,6 +56,10 @@ ul li::before {
   color: tomato;
 }
 
+.all::before{
+  color: pink;
+}
+
 .adv::before {
   color: greenyellow;
 }
@@ -78,6 +82,10 @@ ul li::before {
   letter-spacing: 3px;
   font-weight: bold;
   font-size: 20px;
+}
+
+.theme {
+  cursor: pointer;
 }
 
 .burger {
@@ -208,7 +216,7 @@ ul li::before {
   box-shadow: rgba(90, 90, 90, 0.2) 0px 2px 8px 0px;
   display: flex;
 
-  display: flex;
+  display: none;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -216,6 +224,10 @@ ul li::before {
   width: fit-content;
   margin: 20px;
   padding: 5px;
+}
+
+.show{
+  display: flex;
 }
 
 .d-title {
@@ -258,6 +270,10 @@ a {
   align-items: center;
   font-size: 25px;
   border: none;
+}
+
+.copy-button {
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
