@@ -23,9 +23,7 @@ function toggleNav() {
         
     }
 }
-<<<<<<< HEAD
-=======
-navSlide();
+
 
 filterSelection("all");
 function filterSelection(c) {
@@ -63,4 +61,4 @@ function w3RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
->>>>>>> cffd16a46c34f9c06c74421b637dbf902b9f0b26
+
