@@ -74,3 +74,8 @@ function w3RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
+
+function copy(id) {
+  Url = document.getElementById(id).href
+  navigator.clipboard.writeText(Url)
+}
