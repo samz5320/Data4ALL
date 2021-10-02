@@ -117,13 +117,13 @@ function copy(id) {
 
       // retain number of downloads on page refresh
       window.onload = function(){
-          document.getElementById('ads-click-downloads').innerHTML = localStorage.getItem('ads-click')
-          document.getElementById('weather-history-downloads').innerHTML = localStorage.getItem('weather-history')
-          document.getElementById('iris-downloads').innerHTML = localStorage.getItem('iris')
-          document.getElementById('titanic-downloads').innerHTML = localStorage.getItem('titanic')
-          document.getElementById('reddit-vaccine-downloads').innerHTML = localStorage.getItem('reddit-vaccine')
-          document.getElementById('twitch-data-downloads').innerHTML = localStorage.getItem('twitch-data')
-          document.getElementById('movies-downloads').innerHTML = localStorage.getItem('movies')
+          document.getElementById('ads-click-downloads').innerHTML = localStorage.getItem('ads-click') || '0';
+          document.getElementById('weather-history-downloads').innerHTML = localStorage.getItem('weather-history') || '0';
+          document.getElementById('iris-downloads').innerHTML = localStorage.getItem('iris') || '0';
+          document.getElementById('titanic-downloads').innerHTML = localStorage.getItem('titanic') || '0';
+          document.getElementById('reddit-vaccine-downloads').innerHTML = localStorage.getItem('reddit-vaccine') || '0';
+          document.getElementById('twitch-data-downloads').innerHTML = localStorage.getItem('twitch-data') || '0';
+          document.getElementById('movies-downloads').innerHTML = localStorage.getItem('movies') || '0';
 
       }
 
