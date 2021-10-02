@@ -10,21 +10,21 @@
         // Wait for document to load
         document.addEventListener("DOMContentLoaded", function(event) {
           document.documentElement.setAttribute("data-theme", "light");
-         
+
           // Get our button switcher
           var themeSwitcher = document.getElementById("theme-switcher");
-          
+
           themeSwitcher.addEventListener("click", function() {
-             document.getElementsByTagName('body')[0].classList.toggle("dark-theme"); 
+             document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
           })
-     
+
         });
       </script>
 </head>
 <body>
     <div class="header-wrapper">
         <header>
-            
+
             <div class="logo">
                 <h4>Data<span class="logo-span">4</span>ALL</h4>
             </div>
@@ -35,7 +35,7 @@
                 <li class="inter" onclick="filterSelection('intermediate-db')"><a href="#">intermediate</a></li>
                 <li class="adv" onclick="filterSelection('advanced-db')"><a href="#">advanced</a></li>
                 <button id="theme-switcher" class="theme" ><img src="./assets/images/moon.png" alt="change theme"></button>
-            </ul>    
+            </ul>
         </nav>
 
         <div class="burger">
@@ -43,7 +43,7 @@
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
-    
+
         </header>
       </div>
 
@@ -161,11 +161,12 @@
                         <ion-icon name="download-outline"></ion-icon></a></button>
                 </div>
                 <div class="copy-link">
-                    <button class="copy-button" onclick="copy('d-movies')">Copy Link</button> 
+                    <button class="copy-button" onclick="copy('d-movies')">Copy Link</button>
                 </div>
             </div>
 
         </div>
+
 
         <!-- Colors Data -->
         <div class="card beginner-db">
@@ -182,6 +183,24 @@
                     </div>
                 </div>
         </div>
+
+        <div class="card beginner-db">
+            <p class="d-title">
+                <ul><li class="beginner">Boston Housing Dataset</li></ul>
+            </p>
+                <div class="util">
+                    <div class="d-logo">
+                        <button class="logo-button"><a id="d-housing" href="./datasets/housing.csv" download="housing.csv">
+                            <ion-icon name="download-outline"></ion-icon></a></button>
+                    </div>
+                    <div class="copy-link">
+                        <button class="copy-button" onclick="copy('d-housing')">Copy Link</button>
+                    </div>
+                </div>
+        </div>
+
+
+
 
         <!-- ----copy codeblock from here ------- -->
 <!-- ----replace iris.csv with the name of your dataset file----- -->
