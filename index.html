@@ -20,6 +20,7 @@
 
         });
       </script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="header-wrapper">
@@ -43,7 +44,6 @@
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
-
         </header>
       </div>
 
@@ -69,7 +69,7 @@
                         <ion-icon name="download-outline"></ion-icon></a></button>
                 </div>
                 <div class="copy-link">
-                    <button class="copy-button" onclick="copy('d-iris')">Copy Link</button> <!--Created copy() function takes id of anchor tag to copy its href to clipboared-->
+                    <i class="copy-button far fa-copy" onclick="copy('d-iris')"></i> <!--Created copy() function takes id of anchor tag to copy its href to clipboared-->
                 </div>
             </div>
         </div>
@@ -84,7 +84,7 @@
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button" onclick="copy('d-titanic')">Copy Link</button>
+                        <i class="copy-button far fa-copy" onclick="copy('d-titanic')"></i>
                     </div>
                 </div>
         </div>
@@ -100,7 +100,7 @@
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button" onclick="copy('d-weather-history')">Copy Link</button>
+                        <i class="copy-button far fa-copy" onclick="copy('d-weather-history')"></i>
                     </div>
                 </div>
         </div>
@@ -115,7 +115,7 @@
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button" onclick="copy('d-startup-funding')">Copy Link</button>
+                        <i class="copy-button far fa-copy" onclick="copy('d-startup-funding')"></i>
                     </div>
                 </div>
         </div>
@@ -131,7 +131,7 @@
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button" onclick="copy('d-Ads-Click-through-Rate')">Copy Link</button>
+                        <i class="copy-button far fa-copy" onclick="copy('d-Ads-Click-through-Rate')"></i>
                     </div>
                 </div>
         </div>
@@ -146,7 +146,7 @@
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button" onclick="copy('d-Ads-Click-through-Rate')">Copy Link</button>
+                        <i class="copy-button far fa-copy" onclick="copy('d-Ads-Click-through-Rate')"></i>
                     </div>
                 </div>
         </div>
@@ -162,7 +162,7 @@
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button" onclick="copy('d-twitchdata-update')">Copy Link</button>
+                        <i class="copy-button far fa-copy" onclick="copy('d-twitchdata-update')"></i>
                     </div>
                 </div>
         </div>
@@ -177,7 +177,7 @@
                         <ion-icon name="download-outline"></ion-icon></a></button>
                 </div>
                 <div class="copy-link">
-                    <button class="copy-button" onclick="copy('d-movies')">Copy Link</button>
+                    <i class="copy-button far fa-copy" onclick="copy('d-movies')"></i>
                 </div>
             </div>
 
@@ -195,7 +195,7 @@
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button" onclick="copy('d-colors')">Copy Link</button>
+                        <i class="copy-button far fa-copy" onclick="copy('d-colors')"></i>
                     </div>
                 </div>
         </div>
@@ -209,7 +209,7 @@
                         <ion-icon name="download-outline"></ion-icon></a></button>
                 </div>
                 <div class="copy-link">
-                    <button class="copy-button" onclick="copy('Parkinson data')">Copy Link</button> 
+                    <i class="copy-button far fa-copy" onclick="copy('Parkinson data')"></i> 
                 </div>
             </div>
 
@@ -225,29 +225,29 @@
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button" onclick="copy('d-housing')">Copy Link</button>
+                        <i class="copy-button far fa-copy" onclick="copy('d-housing')"></i>
                     </div>
                 </div>
         </div>
 
         <div class="card beginner-db">
-          <p class="d-title">
-            <ul>
-            <li class="beginner">FDI in India</li>
-            </ul>
-          </p>
-        <div class="util">
-          <div class="d-logo">
-            <button class="logo-button">
-              <a id="d-fdi-india" href="./datasets/fdi-india.csv" download="fdi-india.csv">
-                <ion-icon name="download-outline"></ion-icon>
-              </a>
-            </button>
-          </div>
-          <div class="copy-link">
-            <button class="copy-button" onclick="copy('d-fdi-india')">Copy Link</button>
-          </div>
-        </div>
+            <p class="d-title">
+                <ul>
+                <li class="beginner">FDI in India</li>
+                </ul>
+            </p>
+            <div class="util">
+            <div class="d-logo">
+                <button class="logo-button">
+                <a id="d-fdi-india" href="./datasets/fdi-india.csv" download="fdi-india.csv">
+                    <ion-icon name="download-outline"></ion-icon>
+                </a>
+                </button>
+            </div>
+            <div class="copy-link">
+                <i class="copy-button far fa-copy" onclick="copy('d-fdi-india')"></i>
+            </div>
+            </div>
       </div>
       <div class="card beginner-db">
         <p class="d-title">
@@ -264,7 +264,7 @@
             </button>
           </div>
           <div class="copy-link">
-            <button class="copy-button" onclick="copy('d-heart-disease')">Copy Link</button>
+            <i class="copy-button far fa-copy" onclick="copy('d-heart-disease')"></i>
           </div>
         </div>
       </div>
@@ -281,7 +281,7 @@
                         <ion-icon name="download-outline"></ion-icon></a></button>
                 </div>
                 <div class="copy-link">
-                    <button class="copy-button" onclick="copy('d-nyc-airbnb')">Copy Link</button> 
+                    <i class="copy-button far fa-copy" onclick="copy('d-nyc-airbnb')"></i> 
                 </div>
             </div>
 
@@ -300,7 +300,7 @@
                         <ion-icon name="download-outline"></ion-icon></a></button>
                 </div>
                 <div class="copy-link">
-                    <button class="copy-button">Copy Link</button>
+                    <button class="copy-button"></button>
                 </div>
             </div>
         </div> -->

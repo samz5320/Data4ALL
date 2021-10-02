@@ -161,9 +161,16 @@ ul li::before {
   display:block;
   padding: 0.4rem;
   border: none;
+  color: white;
   border-radius: 0.3em;
   background-color: var(--clr-accent);
-  
+  border: 2px solid  var(--clr-accent);
+  transition: 0.3s;
+
+}
+.copy-button:hover{
+  background-color: white;
+  color:  var(--clr-accent);
 }
 #theme-switcher{
   width: 4.5em;
@@ -336,8 +343,12 @@ nav ul li{
   width: fit-content;
   margin: 20px;
   padding: 5px;
+  transition: 0.3s;
 }
-
+.card:hover{
+  box-shadow: rgba(90, 90, 90, 0.5) 0px 2px 8px 0px;
+  font-size: 16.1px;
+}
 .show{
   display: flex;
 }
@@ -376,12 +387,25 @@ a {
 
 .logo-button {
   text-decoration: none;
-  color: var(--text-color);
-  background-color: transparent;
+  background-color: #000;
+  /*background-color: var(--text-color);
+  */color: white;
   display: flex;
   align-items: center;
   font-size: 25px;
   border: none;
+  border: 2px solid white;
+  border-radius:20% ;
+  -webkit-border-radius:20% ;
+  -moz-border-radius:20% ;
+  -ms-border-radius:20% ;
+  -o-border-radius:20% ;
+  transition: 0.3s;
+}
+.logo-button:hover{
+  color: black;
+  border-color: black;
+  background-color: white;
 }
 
 .copy-button {
