@@ -6,7 +6,9 @@
 
 ### All the datasets you need in one place
 
-  
+<h2 align=center>What is Dataset?</h2>
+It's the set of data mostly available in CSV format (but not the only format).
+It's mostly in tabular form and CSV files are meant to be as comma separated files.
 
 ### Drop in any datasets that you can find
 
