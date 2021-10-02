@@ -10,19 +10,19 @@
         // Wait for document to load
         document.addEventListener("DOMContentLoaded", function(event) {
           document.documentElement.setAttribute("data-theme", "light");
-      
+
           // Get our button switcher
           var themeSwitcher = document.getElementById("theme-switcher");
-      
+
           // When our button gets clicked
           themeSwitcher.onclick = function() {
             // Get the current selected theme, on the first run
             // it should be `light`
             var currentTheme = document.documentElement.getAttribute("data-theme");
-      
+
             // Switch between `dark` and `light`
             var switchToTheme = currentTheme === "dark" ? "light" : "dark"
-      
+
             // Set our currenet theme to the new one
             document.documentElement.setAttribute("data-theme", switchToTheme);
           }
@@ -60,7 +60,7 @@
 
 <section class="datasets">
     <div class="cards">
-        <div class="card beginner-db"> 
+        <div class="card beginner-db">
             <p class="d-title">
                 <ul><li class="beginner">Iris Dataset</li></ul>
             </p>
@@ -73,7 +73,7 @@
                     <button class="copy-button" onclick="copy('d-iris')">Copy Link</button> <!--Created copy() function takes id of anchor tag to copy its href to clipboared-->
                 </div>
             </div>
-        </div> 
+        </div>
 
         <div class="card beginner-db">
             <p class="d-title">
@@ -120,23 +120,40 @@
                     </div>
                 </div>
         </div>
-        
+
+        <div class="card">
+            <p class="d-title">
+                <ul><li class="beginner">Reddit Vaccine Myths</li></ul>
+            </p>
+                <div class="util">
+                    <div class="d-logo">
+                        <button class="logo-button"><a id="d-Reddit-Vaccine-Myths" href="./datasets/reddit_vm.csv" download="reddit_vm.csv">
+                            <ion-icon name="download-outline"></ion-icon></a></button>
+                    </div>
+                    <div class="copy-link">
+                        <button class="copy-button" onclick="copy('d-Ads-Click-through-Rate')">Copy Link</button>
+                    </div>
+                </div>
+        </div>
+
+
+
         <!-- ----copy codeblock from here ------- -->
 <!-- ----replace iris.csv with the name of your dataset file----- -->
-        <!-- <div class="card">  
-            <p class="d-title">Iris Dataset</p> 
+        <!-- <div class="card">
+            <p class="d-title">Iris Dataset</p>
             <div class="util">
                 <div class="d-logo">
-                    <button class="logo-button"><a href="./datasets/Iris.csv" download="iris.csv">  
+                    <button class="logo-button"><a href="./datasets/Iris.csv" download="iris.csv">
                         <ion-icon name="download-outline"></ion-icon></a></button>
                 </div>
                 <div class="copy-link">
                     <button class="copy-button">Copy Link</button>
                 </div>
-            </div> 
-        </div> -->  
- <!--  copy codeblock till here   --> 
-  <!--  paste codeblock  here and make changes  -->           
+            </div>
+        </div> -->
+ <!--  copy codeblock till here   -->
+  <!--  paste codeblock  here and make changes  -->
     </div>
 </section>
 
