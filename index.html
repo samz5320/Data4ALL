@@ -10,43 +10,42 @@
         // Wait for document to load
         document.addEventListener("DOMContentLoaded", function(event) {
           document.documentElement.setAttribute("data-theme", "light");
-
+         
           // Get our button switcher
           var themeSwitcher = document.getElementById("theme-switcher");
-
-          // When our button gets clicked
-          themeSwitcher.onclick = function() {
-            // Get the current selected theme, on the first run
-            // it should be `light`
-            var currentTheme = document.documentElement.getAttribute("data-theme");
-
-            // Switch between `dark` and `light`
-            var switchToTheme = currentTheme === "dark" ? "light" : "dark"
-
-            // Set our currenet theme to the new one
-            document.documentElement.setAttribute("data-theme", switchToTheme);
-          }
+          
+          themeSwitcher.addEventListener("click", function() {
+             document.getElementsByTagName('body')[0].classList.toggle("dark-theme"); 
+          })
+     
         });
       </script>
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <h4>Data<span class="logo-span">4</span>ALL</h4>
-        </div>
-        <ul class="nav-links">
-            <li class="all"><a href="#" onclick="filterSelection('all')">all</a></li>
-            <li class="beginner"><a href="#" onclick="filterSelection('beginner-db')">beginner</a></li>
-            <li class="inter"><a href="#" onclick="filterSelection('intermediate-db')">intermediate</a></li>
-            <li class="adv"><a href="#" onclick="filterSelection('advanced-db')">advanced</a></li>
-            <button id="theme-switcher" class="theme">theme</button>
-        </ul>
+    <div class="header-wrapper">
+        <header>
+            
+            <div class="logo">
+                <h4>Data<span class="logo-span">4</span>ALL</h4>
+            </div>
+            <nav>
+            <ul class="nav-links">
+                <li class="all"><a href="#">all</a></li>
+                <li class="beginner"><a href="#">beginner</a></li>
+                <li class="inter"><a href="#">intermediate</a></li>
+                <li class="adv"><a href="#">advanced</a></li>
+                <button id="theme-switcher" class="theme"><img src="./assets/images/moon.png" alt="change theme"></button>
+            </ul>    
+        </nav>
+
         <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-    </nav>
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+    
+        </header>
+      </div>
 
 
 <section class="title">
