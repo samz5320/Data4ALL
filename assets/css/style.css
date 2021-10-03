@@ -90,6 +90,7 @@ nav{
 nav ul{
  list-style: none;
  display: flex;
+ justify-content: space-around;
  flex-direction:column;
 }
 
@@ -132,6 +133,24 @@ ul li::before {
     font-weight: bold;
 } */
 
+.hide{
+  display: none !important;
+}
+#db-search-form{
+  display: flex;
+  align-items: center;
+  margin-top: 0.5em;
+}
+
+#db-search-form input{
+  background: transparent;
+  color: var(--text-color);
+  border-color: black;
+  border-radius: 10px;
+  height: 25px;
+  margin-right: 1em;
+  padding: 0.25em 0.5em;
+}
 .nav-links a {
   color: var(--text-color);
   text-decoration: none;
