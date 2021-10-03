@@ -139,7 +139,7 @@ ul li::before {
 #db-search-form{
   display: flex;
   align-items: center;
-  margin-top: 0.5em;
+  margin: 0 1em;
 }
 
 #db-search-form input{
@@ -147,7 +147,7 @@ ul li::before {
   color: var(--text-color);
   border-color: black;
   border-radius: 10px;
-  height: 25px;
+  height: 30px;
   margin-right: 1em;
   padding: 0.25em 0.5em;
 }
