@@ -19,6 +19,8 @@
           })
 
         });
+
+        
       </script>
 </head>
 <body>
@@ -69,7 +71,7 @@
                         <ion-icon name="download-outline"></ion-icon></a></button>
                 </div>
                 <div class="copy-link">
-                    <button class="copy-button" onclick="copy('d-iris')">Copy Link</button> <!--Created copy() function takes id of anchor tag to copy its href to clipboared-->
+                    <button id="btn-1" class="copy-button" onclick="onClick('d-iris', 'btn-1')">Copy Link</button> <!--Created copy() function takes id of anchor tag to copy its href to clipboared-->
                 </div>
             </div>
         </div>
@@ -84,7 +86,7 @@
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button" onclick="copy('d-titanic')">Copy Link</button>
+                        <button id="btn-2" class="copy-button" onclick="onClick('d-titanic', 'btn-2')">Copy Link</button>
                     </div>
                 </div>
         </div>
@@ -100,7 +102,7 @@
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button" onclick="copy('d-weather-history')">Copy Link</button>
+                        <button id="btn-3" class="copy-button" onclick="onClick('d-weather-history','btn-3')">Copy Link</button>
                     </div>
                 </div>
         </div>
@@ -115,7 +117,7 @@
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button" onclick="copy('d-startup-funding')">Copy Link</button>
+                        <button  id="btn-4" class="copy-button" onclick="onClick('d-startup-funding','btn-4')">Copy Link</button>
                     </div>
                 </div>
         </div>
@@ -131,7 +133,7 @@
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button" onclick="copy('d-Ads-Click-through-Rate')">Copy Link</button>
+                        <button id="btn-5" class="copy-button" onclick="onClick('d-Ads-Click-through-Rate','btn-5')">Copy Link</button>
                     </div>
                 </div>
         </div>
@@ -146,7 +148,7 @@
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button" onclick="copy('d-Ads-Click-through-Rate')">Copy Link</button>
+                        <button id="btn-6" class="copy-button" onclick="onClick('d-Ads-Click-through-Rate','btn-6')">Copy Link</button>
                     </div>
                 </div>
         </div>
@@ -158,11 +160,11 @@
             </p>
                 <div class="util">
                     <div class="d-logo">
-                        <button class="logo-button"><a id="d-Twitch Data" href="./datasets/twitchdata-update.csv" download="twitchdata-update.csv">
+                        <button class="logo-button"><a id="d-twitch-data" href="./datasets/twitchdata-update.csv" download="twitchdata-update.csv">
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button" onclick="copy('d-twitchdata-update')">Copy Link</button>
+                        <button id="btn-7" class="copy-button" onclick="onClick('d-twitch-data','btn-7')">Copy Link</button>
                     </div>
                 </div>
         </div>
@@ -177,7 +179,7 @@
                         <ion-icon name="download-outline"></ion-icon></a></button>
                 </div>
                 <div class="copy-link">
-                    <button class="copy-button" onclick="copy('d-movies')">Copy Link</button>
+                    <button id="btn-8" class="copy-button" onclick="onClick('d-movies','btn-8')">Copy Link</button>
                 </div>
             </div>
 
@@ -195,7 +197,7 @@
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button" onclick="copy('d-colors')">Copy Link</button>
+                        <button id="btn-9" class="copy-button" onclick="onClick('d-colors','btn-9')">Copy Link</button>
                     </div>
                 </div>
         </div>
@@ -209,7 +211,7 @@
                         <ion-icon name="download-outline"></ion-icon></a></button>
                 </div>
                 <div class="copy-link">
-                    <button class="copy-button" onclick="copy('Parkinson data')">Copy Link</button> 
+                    <button id="btn-10" class="copy-button" onclick="onClick('Parkinson data','btn-10')">Copy Link</button> 
                 </div>
             </div>
 
@@ -225,7 +227,7 @@
                             <ion-icon name="download-outline"></ion-icon></a></button>
                     </div>
                     <div class="copy-link">
-                        <button class="copy-button" onclick="copy('d-housing')">Copy Link</button>
+                        <button id="btn-11" class="copy-button" onclick="onClick('d-housing','btn-11')">Copy Link</button>
                     </div>
                 </div>
         </div>
@@ -245,7 +247,7 @@
             </button>
           </div>
           <div class="copy-link">
-            <button class="copy-button" onclick="copy('d-fdi-india')">Copy Link</button>
+            <button id="btn-12" class="copy-button" onclick="onClick('d-fdi-india','btn-12')">Copy Link</button>
           </div>
         </div>
       </div>
@@ -264,7 +266,7 @@
             </button>
           </div>
           <div class="copy-link">
-            <button class="copy-button" onclick="copy('d-heart-disease')">Copy Link</button>
+            <button id="btn-13" class="copy-button" onclick="onClick('d-heart-disease', 'btn-13')">Copy Link</button>
           </div>
         </div>
       </div>
@@ -281,7 +283,7 @@
                         <ion-icon name="download-outline"></ion-icon></a></button>
                 </div>
                 <div class="copy-link">
-                    <button class="copy-button" onclick="copy('d-nyc-airbnb')">Copy Link</button> 
+                    <button id="btn-14" class="copy-button" onclick="onClick('d-nyc-airbnb','btn-14')">Copy Link</button> 
                 </div>
             </div>
 

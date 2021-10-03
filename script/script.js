@@ -66,3 +66,11 @@ function copy(id) {
   Url = document.getElementById(id).href
   navigator.clipboard.writeText(Url)
 }
+
+function onClick(id, val){
+  copy(id);
+  original=document.getElementById(val).innerText;
+  document.getElementById(val).innerHTML="Copied"
+  setTimeout(()=>document.getElementById(val).innerHTML=original, 1000);
+  // alert("Link Copied");
+}
