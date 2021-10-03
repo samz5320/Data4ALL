@@ -1,4 +1,4 @@
-<img src="./assets/data4all_poster.gif"/>
+<img src="./assets/images/data4all_poster.gif"/>
 
 <h1 align=center>Data4ALL Website</h1>
 
@@ -33,11 +33,11 @@ we have following features :
 
 <h3 align=center> Light Theme </h3>
 
-<img src="./assets/Light_theme.png"/>
+<img src="./assets/images/Light_theme.png"/>
 
 <h3 align=center> Dark Theme </h3>
 
-<img src="./assets/dark_theme.png"/>
+<img src="./assets/images/dark_theme.png"/>
 
 
 
