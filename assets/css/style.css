@@ -156,7 +156,7 @@ ul li::before {
   transition: all 0.3s ease;
 }
 
-.copy-button {
+.copy-link {
   cursor: pointer;
   display:block;
   padding: 0.4rem;
@@ -166,9 +166,12 @@ ul li::before {
   background-color: var(--clr-accent);
   border: 2px solid  var(--clr-accent);
   transition: 0.3s;
+  height: 32px;
+  width: 32px;
 
 }
-.copy-button:hover{
+
+.copy-link:hover{
   background-color: white;
   color:  var(--clr-accent);
 }
@@ -387,29 +390,45 @@ a {
 
 .logo-button {
   text-decoration: none;
-  background-color: #000;
-  /*background-color: var(--text-color);
-  */color: white;
   display: flex;
   align-items: center;
-  font-size: 25px;
   border: none;
-  border: 2px solid white;
-  border-radius:20% ;
-  -webkit-border-radius:20% ;
-  -moz-border-radius:20% ;
-  -ms-border-radius:20% ;
-  -o-border-radius:20% ;
-  transition: 0.3s;
+  color:var(--clr-accent) ;
+  border: 2px solid var(--clr-accent);
+  border-radius: 20%;
+  background-color: white;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 .logo-button:hover{
-  color: black;
-  border-color: black;
-  background-color: white;
+  background-color: var(--clr-accent);
+  color: white;
+  border-color: white;
 }
 
-.copy-button {
+.copy-link {
   cursor: pointer;
+  color: white;
+  border: 2px solid var(--clr-accent);
+}
+img.copy-button{
+  filter:brightness(0) invert(1);
+  -webkit-filter:brightness(0) invert(1);
+}
+img.copy-button:hover{
+  filter: invert(90%) sepia(100%) saturate(1352%) hue-rotate(87deg) brightness(76%) contrast(328%);
+  -webkit-filter: invert(90%) sepia(100%) saturate(1352%) hue-rotate(87deg) brightness(76%) contrast(328%);
+}
+.d-logo ion-icon{
+  height: 26px;
+  width: 28px;
 }
 
 @media (max-width: 768px) {
