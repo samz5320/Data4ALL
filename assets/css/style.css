@@ -79,12 +79,17 @@ header{
 nav{
  position: absolute;
  background: var(--clr-main);
- margin-top: 300px; 
+ margin-top: 350px; 
+ margin-left: -2rem;
  width: 100%;
  background: var(--clr-main);
  z-index: 999;
  transition: transform 0.5s ease-in;
  display: none;
+ padding: 1rem;
+ border-bottom: 1px solid var(--clr-dark-opc);
+ border-left: 1px solid var(--clr-dark-opc)
+
 }
 
 nav ul{
@@ -202,6 +207,8 @@ ul li::before {
     position: static;
     margin-top: 0;
     margin-left: 5em;
+    padding: 0;
+    border: none;
 }
 
 nav ul {
