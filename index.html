@@ -51,14 +51,33 @@
 <section class="title">
     <div class="heading">
         <h1>DataSets</h1>
+        <div class="tile-logo">
+            <ion-icon name="folder-outline"></ion-icon>
+        </div>
     </div>
-    <div class="tile-logo">
-        <ion-icon name="folder-outline"></ion-icon>
+    <div id="db-search-form">
+        <input id="db-search" type="text" size="25" placeholder="Search datasets">
     </div>
 </section>
 
 <section class="datasets">
     <div class="cards">
+        <div class="card beginner-db">
+            <p class="d-title">
+                <ul><li class="beginner">Indian Colleges Dataset</li></ul>
+            </p>
+            <div class="util">
+                <div class="d-logo">
+                    <button class="logo-button"><a id="d-college" href="./datasets/colleges.csv" download="colleges.csv">
+                        <ion-icon name="download-outline"></ion-icon></a></button>
+                </div>
+                <div class="copy-link">
+                    <button class="copy-button" onclick="copy('d-college')">Copy Link</button> <!--Created copy() function takes id of anchor tag to copy its href to clipboared-->
+                </div>
+            </div>
+        </div>
+
+
         <div class="card beginner-db">
             <p class="d-title">
                 <ul><li class="beginner">Iris Dataset</li></ul>
@@ -73,6 +92,22 @@
                 </div>
             </div>
         </div>
+		
+	<div class="card beginner-db">
+            <p class="d-title">
+                <ul><li class="beginner">Mushroom Dataset</li></ul>
+            </p>
+            <div class="util">
+                <div class="d-logo">
+                    <button class="logo-button"><a id="d-mushroom" href="./datasets/MushroomDataset.zip" download="MushroomDataset.zip">
+                        <ion-icon name="download-outline"></ion-icon></a></button>
+                </div>
+                <div class="copy-link">
+                    <button class="copy-button" onclick="copy('d-mushroom')">Copy Link</button>
+                </div>
+            </div>
+        </div>
+
         
         <div class="card beginner-db">
             <p class="d-title">
@@ -231,6 +266,20 @@
         </div>
 
         <div class="card beginner-db">
+            <p class="d-title">
+                <ul><li class="beginner">Electric Car Dataset</li></ul>
+            </p>
+                <div class="util">
+                    <div class="d-logo">
+                        <button class="logo-button"><a id="d-electricCar" href="./datasets/ElectricCarData.csv" download="ElectricCarData.csv">
+                            <ion-icon name="download-outline"></ion-icon></a></button>
+                    </div>
+                    <div class="copy-link">
+                        <button class="copy-button" onclick="copy('d-electricCar')">Copy Link</button>
+                    </div>
+                </div>
+</div>
+    <div class="card beginner-db">
           <p class="d-title">
             <ul>
             <li class="beginner">FDI in India</li>
@@ -269,7 +318,20 @@
         </div>
       </div>
      
-
+        <div class="card beginner-db">
+            <p class="d-title">
+                <ul><li class="beginner">Customer Personality Analysis</li></ul>
+            </p>
+            <div class="util">
+                <div class="d-logo">
+                    <button class="logo-button"><a id="d-customer-personality" href="./datasets/customer_personality.csv" download="customer_personality.csv">
+                        <ion-icon name="download-outline"></ion-icon></a></button>
+                </div>
+                <div class="copy-link">
+                    <button class="copy-button" onclick="copy('d-customer-personality')">Copy Link</button> 
+                </div>
+            </div>
+        </div>
 
         <div class="card beginner-db">
             <p class="d-title">
@@ -288,6 +350,85 @@
         </div>
 
         <div class="card beginner-db">
+	          <p class="d-title">
+	         <ul>
+	          <li class="beginner">Agriculture Datasets</li>
+	        </ul>
+	          </p>
+  <div class="util">
+	<div class="d-logo">
+	  <button class="logo-button">
+		<a id="d-agriculture" href="./datasets/agriculture.csv" download="agriculture.csv">
+		  <ion-icon name="download-outline"></ion-icon>
+		</a>
+	  </button>
+	</div>
+	<div class="copy-link">
+	  <button class="copy-button" onclick="copy('d-agriculture')">Copy Link</button>
+	</div>
+  </div>
+</div>
+
+
+
+<div class="card beginner-db">
+	<p class="d-title">
+	  <ul>
+	  <li class="beginner">Farming Produce</li>
+	  </ul>
+	</p>
+  <div class="util">
+	<div class="d-logo">
+	  <button class="logo-button">
+		<a id="d-production" href="./datasets/produce.csv" download="farming_produce.csv">
+		  <ion-icon name="download-outline"></ion-icon>
+		</a>
+	  </button>
+	</div>
+	<div class="copy-link">
+	  <button class="copy-button" onclick="copy('d-production')">Copy Link</button>
+	</div>
+  </div>
+</div>
+
+<div class="card beginner-db">
+	<p class="d-title">
+	  <ul>
+	  <li class="beginner">Top-500 Companies-India Dataset</li>
+	  </ul>
+	</p>
+  <div class="util">
+	<div class="d-logo">
+	  <button class="logo-button">
+		<a id="d-company" href="./datasets/Top_500_Companies_India.csv" download="Top_500_Companies_India.csv">
+		  <ion-icon name="download-outline"></ion-icon>
+		</a>
+	  </button>
+	</div>
+	<div class="copy-link">
+	  <button class="copy-button" onclick="copy('d-company')">Copy Link</button>
+	</div>
+  </div>
+</div>
+	<div class="card beginner-db">
+            <p class="d-title">
+                <ul>
+                    <li class="beginner">
+                    Covid-19 Dataset
+                   </li>
+                </ul>
+            </p>
+            <div class="util">
+                <div class="d-logo">
+                    <button class="logo-button"><a href="./datasets/covid_19_data.csv" id="d-covid" download="covid_19_datacsv">
+                        <ion-icon name="download-outline"></ion-icon></a></button>
+                </div>
+                <div class="copy-link">
+                    <button class="copy-button"onclick="copy('d-covid')">Copy Link</button>
+                </div>
+            </div>
+        </div>
+<div class="card beginner-db">
             <p class="d-title">
                 <ul><li class="beginner">India Cities Dataset</li></ul>
             </p>
@@ -316,6 +457,22 @@
                      <button class="copy-button" onclick="copy('d-novels')">Copy Link</button>
                 </div>
             </div>
+
+        </div>
+
+        <div class="card intermediate-db">
+            <p class="d-title">
+                <ul><li class="inter">Olympics Dataset</li></ul>
+            </p>
+                <div class="util">
+                    <div class="d-logo">
+                        <button class="logo-button"><a id="d-olympic" href="./datasets/olympics_data.csv" download="olympics_data.csv">
+                            <ion-icon name="download-outline"></ion-icon></a></button>
+                    </div>
+                    <div class="copy-link">
+                        <button class="copy-button" onclick="copy('d-olympic')">Copy Link</button>
+                    </div>
+                </div>
         </div>
 
         <div class="card beginner-db">
@@ -331,8 +488,37 @@
                      <button class="copy-button" onclick="copy('d-tourist')">Copy Link</button>
                 </div>
             </div>
+
+
+           <div class="card beginner-db">
+            <p class="d-title">
+                <ul><li class="beginner">Uber Stock Prices</li></ul>
+            </p>
+            <div class="util">
+                <div class="d-logo">
+                    <button class="logo-button"><a id="d-UBER" href="./datasets/UBER.csv" download="UBER.csv">
+                        <ion-icon name="download-outline"></ion-icon></a></button>
+                </div>
+                <div class="copy-link">
+                    <button class="copy-button" onclick="copy('d-UBER')">Copy Link</button> 
+                </div>
+            </div>
         </div>
 
+        <div class="card intermediate-db">
+            <p class="d-title">
+                <ul><li class="inter">Drinking Water Potability</li></ul>
+            </p>
+                <div class="util">
+                    <div class="d-logo">
+                        <button class="logo-button"><a id="d-drinking-water-potability" href="./datasets/drinking_water_potability.csv" download="drinking_water_potability.csv">
+                            <ion-icon name="download-outline"></ion-icon></a></button>
+                    </div>
+                    <div class="copy-link">
+                        <button class="copy-button" onclick="copy('d-drinking-water-potability')">Copy Link</button>
+                    </div>
+                </div>
+        </div>
 
 
         <!-- ----copy codeblock from here ------- -->
@@ -359,5 +545,6 @@
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="./script/script.js"></script>
+<script src="./script/search-db.js"></script>
 </body>
 </html>
