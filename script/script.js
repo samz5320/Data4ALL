@@ -66,3 +66,78 @@ function copy(id) {
   Url = document.getElementById(id).href
   navigator.clipboard.writeText(Url)
 }
+
+
+
+
+
+        // functions to display number of downloads for each dataset
+        function downloadButtonIris(){
+          var counter = document.getElementById('iris-downloads');
+          console.log(counter.innerHTML);
+          localStorage.setItem('iris', parseInt(counter.innerHTML) + 1);
+          counter.innerHTML = localStorage.getItem('iris');
+      }
+      function downloadButtonTitanic(){
+          var counter = document.getElementById('titanic-downloads');
+          console.log(counter.innerHTML);
+          localStorage.setItem('titanic', parseInt(counter.innerHTML) + 1);
+          counter.innerHTML = localStorage.getItem('titanic');
+      }
+      function downloadButtonWeatherHistory(){
+          console.log("cndjcb");
+          var counter = document.getElementById('weather-history-downloads');
+          localStorage.setItem('weather-history', parseInt(counter.innerHTML) + 1);
+          counter.innerHTML = localStorage.getItem('weather-history');
+      }
+      function downloadButtonAdsClick(){
+          var counter = document.getElementById('ads-click-downloads');
+          console.log(counter.innerHTML);
+          localStorage.setItem('ads-click', parseInt(counter.innerHTML) + 1);
+          counter.innerHTML = localStorage.getItem('ads-click');
+      }
+      function downloadButtonRedditVaccineMyths(){
+        var counter = document.getElementById('reddit-vaccine-downloads');
+        console.log(counter.innerHTML);
+        localStorage.setItem('reddit-vaccine', parseInt(counter.innerHTML) + 1);
+        counter.innerHTML = localStorage.getItem('reddit-vaccine');
+      }
+      function downloadButtonTwitchData(){
+        var counter = document.getElementById('twitch-data-downloads');
+        console.log(counter.innerHTML);
+        localStorage.setItem('twitch-data', parseInt(counter.innerHTML) + 1);
+        counter.innerHTML = localStorage.getItem('twitch-data');
+      }
+      function downloadButtonMovies(){
+        var counter = document.getElementById('movies-downloads');
+        console.log(counter.innerHTML);
+        localStorage.setItem('movies', parseInt(counter.innerHTML) + 1);
+        counter.innerHTML = localStorage.getItem('movies');
+      }
+
+      // retain number of downloads on page refresh
+      window.onload = function(){
+          document.getElementById('ads-click-downloads').innerHTML = localStorage.getItem('ads-click') || '0';
+          document.getElementById('weather-history-downloads').innerHTML = localStorage.getItem('weather-history') || '0';
+          document.getElementById('iris-downloads').innerHTML = localStorage.getItem('iris') || '0';
+          document.getElementById('titanic-downloads').innerHTML = localStorage.getItem('titanic') || '0';
+          document.getElementById('reddit-vaccine-downloads').innerHTML = localStorage.getItem('reddit-vaccine') || '0';
+          document.getElementById('twitch-data-downloads').innerHTML = localStorage.getItem('twitch-data') || '0';
+          document.getElementById('movies-downloads').innerHTML = localStorage.getItem('movies') || '0';
+
+      }
+
+
+      // function to track visitors count
+      const countEl = document.getElementById('count');
+
+      updateVisitCount();
+
+      function updateVisitCount() {
+          fetch('https://api.countapi.xyz/update/data4all-karishmav/karishmavanwari/?amount=1')
+          .then(res => res.json())
+          .then(res => {
+              document.getElementById('count').innerHTML = res.value;
+          })
+      }
+
