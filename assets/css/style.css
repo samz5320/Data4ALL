@@ -95,6 +95,7 @@ nav{
 nav ul{
  list-style: none;
  display: flex;
+ justify-content: space-around;
  flex-direction:column;
 }
 
@@ -137,6 +138,23 @@ ul li::before {
     font-weight: bold;
 } */
 
+.hide{
+  display: none !important;
+}
+#db-search-form{
+  display: flex;
+  align-items: center;
+  margin: 1em 0;
+}
+
+#db-search-form input{
+  background: transparent;
+  color: var(--text-color);
+  border-color: black;
+  border-radius: 5px;
+  height: 30px;
+  padding: 0.25em 0.5em;
+}
 .nav-links a {
   color: var(--text-color);
   text-decoration: none;
@@ -289,12 +307,14 @@ nav ul li{
 /* title section*/
 .title {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   /* border: 1px solid black; */
+  flex-wrap: wrap;
   margin-top: 40px;
-  margin-left: 70px;
-  width: fit-content;
+  padding-left: 3em;
+  padding-right: 3em;
+  width: 100%;
   height: fit-content;
 }
 
@@ -305,7 +325,13 @@ nav ul li{
   font-size: 30px;
   width: 150px;
 }
-
+.title .heading{
+  display: flex;
+  margin-right: 1em;
+}
+.tile-logo{
+  margin-top: 0.5em;
+}
 .title ion-icon {
   display: flex;
   justify-content: center;
