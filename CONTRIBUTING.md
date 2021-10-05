@@ -1,6 +1,6 @@
 # Guidelines to Contribute:
 
-:+1::tada: First off all, thanks for taking the time to contribute! :tada::+1:
+:+1::tada: First of all, thanks for taking the time to contribute! :tada::+1:
 
 ### To start contributing, kindly follow the below guidelines:
   
@@ -71,7 +71,7 @@ git push -u origin <branch-name>
 You can add your own dataset in dataset/ path and don't forget to update the indexd.html as well. Try to test the project whether its working or not and then make a PR. You can also update README.md and CONTRIBUTING.md if required.
 
 ## PR Review
-Your PR will get reviewed soon from the maintainers of the project. If they suggest changes, do all the changes, commit the changes, rebase the branch, squash the commits and push the changes. If everything looks good, your PR will be merged. That's it! Thank you for your contribution! Feel free to suggest any changes to this documentation.
+Your PR will get reviewed soon by the maintainers of the project. If they suggest changes, do all the changes, commit the changes, rebase the branch, squash the commits and push the changes. If everything looks good, your PR will be merged. That's it! Thank you for your contribution! Feel free to suggest any changes to this documentation.
 
 ## Note
-Contribution can be very small, that does not matter. We even love to receive a typo fix PR. Adding feature or fixing a bug is not the only way to contribute. You can send us a PR for adding documentation, fixing typos or adding tests.
+Contribution can be very small, that does not matter. We even love to receive a typo fix PR. Adding a feature or fixing a bug is not the only way to contribute. You can send us a PR for adding documentation, fixing typos or adding tests.
