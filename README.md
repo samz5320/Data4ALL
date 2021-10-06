@@ -15,7 +15,7 @@
 Since, It is a fresh new project and still it in development phase.
 we have following features :
 
-  **1> You can filter out datasets with level :"Beginner , Intermediate ,Advanced".**
+  **1> You can filter out datasets with level : "Beginner, Intermediate, Advanced".**
   
   **2> You can select theme of your choice : It can be Light or Dark.**
   
@@ -59,13 +59,14 @@ we have following features :
 
 
 1. Add your datasets file in the datasets folder
+
 2. make changes in index.html
 
 3. follow the comments for more help in the index.html file
 
 4. test the changes in your localhost
 
-5. if everything looks good ,go ahead and send a Pull Request.
+5. if everything looks good, go ahead and send a Pull Request.
 
 6. Sit back and relax as your changes get reviewed.
 
