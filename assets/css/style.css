@@ -178,7 +178,6 @@ ul li::before {
   margin: 5px;
   transition: all 0.3s ease;
 }
-
 .copy-button {
   cursor: pointer;
   display:block;
@@ -186,7 +185,6 @@ ul li::before {
   border: none;
   border-radius: 0.3em;
   background-color: var(--clr-accent);
-  
 }
 #theme-switcher{
   width: 4.5em;
