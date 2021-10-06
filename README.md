@@ -33,7 +33,7 @@ we have following features :
 
 <h3 align=center> Light Theme </h3>
 
-<img src="./assets/images/Light_theme.png"/>
+<img src="./assets/images/light_theme.png"/>
 
 <h3 align=center> Dark Theme </h3>
 
