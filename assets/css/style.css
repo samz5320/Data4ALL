@@ -145,6 +145,13 @@ ul li::before {
   font-size: 1.3em;
 }
 
+.nav-links a:hover{
+  color: var(--clr-accent);
+}
+.active{
+  color: var(--clr-accent);
+}
+
 .theme {
   cursor: pointer;
 }
