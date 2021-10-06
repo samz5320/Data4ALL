@@ -66,3 +66,17 @@ function copy(id) {
   Url = document.getElementById(id).href
   navigator.clipboard.writeText(Url)
 }
+
+
+
+//Active tab feature script
+
+let header = document.getElementById("nav-bar-links");
+let btns = header.getElementsByClassName("btn");
+for (let i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  let current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
