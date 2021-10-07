@@ -9,17 +9,23 @@
     <script type="text/javascript">
         // Wait for document to load
         document.addEventListener("DOMContentLoaded", function(event) {
-          document.documentElement.setAttribute("data-theme", "light");
-
-          // Get our button switcher
-          var themeSwitcher = document.getElementById("theme-switcher");
-
-          themeSwitcher.addEventListener("click", function() {
-             document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
-          })
-
-        });
-      </script>
+                if(localStorage.getItem("isDark")===null)
+                {
+                    localStorage.setItem("isDark", 'false');
+                }
+                if(localStorage.getItem("isDark")==='true')
+                {
+                document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
+                }
+                // Get our button switcher
+                var themeSwitcher = document.getElementById("theme-switcher");
+    
+                themeSwitcher.addEventListener("click", function() {
+                    var isDark =document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
+                    localStorage.setItem("isDark",isDark);
+                })
+            });
+        </script>
 </head>
 <body>
     <div class="header-wrapper">
