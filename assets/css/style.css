@@ -204,10 +204,11 @@ ul li::before {
   background: transparent;
   color: var(--text-color);
   border-color: black;
-  border-radius: 5px;
+  border-radius: 35px;
   height: 30px;
-  padding: 0.25em 0.5em;
+  padding: 1.1em .90em;
 }
+
 .nav-links a {
   color: var(--text-color);
   text-decoration: none;
