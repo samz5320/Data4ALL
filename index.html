@@ -9,17 +9,23 @@
     <script type="text/javascript">
         // Wait for document to load
         document.addEventListener("DOMContentLoaded", function(event) {
-          document.documentElement.setAttribute("data-theme", "light");
-
-          // Get our button switcher
-          var themeSwitcher = document.getElementById("theme-switcher");
-
-          themeSwitcher.addEventListener("click", function() {
-             document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
-          })
-
-        });
-      </script>
+                if(localStorage.getItem("isDark")===null)
+                {
+                    localStorage.setItem("isDark", 'false');
+                }
+                if(localStorage.getItem("isDark")==='true')
+                {
+                document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
+                }
+                // Get our button switcher
+                var themeSwitcher = document.getElementById("theme-switcher");
+    
+                themeSwitcher.addEventListener("click", function() {
+                    var isDark =document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
+                    localStorage.setItem("isDark",isDark);
+                })
+            });
+        </script>
 </head>
 <body>
     <div class="header-wrapper">
@@ -888,6 +894,7 @@
         </div>
 
 
+
         <div class="card beginner-db">
             <p class="d-title">
                 <ul><li class="beginner">Alcohol Consumption</li></ul>
@@ -901,6 +908,21 @@
                     <button class="copy-button" onclick="copy('d-alcohol')">Copy Link</button> 
                 </div>
             </div>
+
+
+	<div class="card intermediate-db">
+            <p class="d-title">
+                <ul><li class="inter">Unicorn Startups in India till 2020</li></ul>
+            </p>
+                <div class="util">
+                    <div class="d-logo">
+                        <button class="logo-button"><a id="d-Unicorn-Startups" href="./datasets/Unicorns Startups in India.csv" download="Unicorns Startups in India.csv">
+                            <ion-icon name="download-outline"></ion-icon></a></button>
+                    </div>
+                    <div class="copy-link">
+                        <button class="copy-button" onclick="copy('d-Unicorn-Startups')">Copy Link</button>
+                    </div>
+                </div>
 
         </div>
 
