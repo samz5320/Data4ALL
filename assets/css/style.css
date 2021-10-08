@@ -221,6 +221,9 @@ ul li::before {
   height: 30px;
   padding: 1.1em 0.9em;
 }
+#db-search-form input:focus {
+  outline: none;
+}
 
 .nav-links a {
   color: var(--text-color);
