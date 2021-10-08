@@ -182,12 +182,12 @@ ul li::before {
   color: var(--clr-int);
 }
 /* ul li::before {
-    
+
     content: "\2022";
     color: tomato;
     font-size: 20px;
     font-weight: bold;
-    
+
     font-weight: bold;
 } */
 
