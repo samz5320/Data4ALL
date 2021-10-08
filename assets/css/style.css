@@ -23,6 +23,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* Custom Scroll Bar */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-track {
+  background: var(--clr-dark-opc);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--clr-accent);
+  border-radius: 1rem;
+}
 /* Dark Theme CSS */
 
 .dark-theme {
@@ -238,7 +249,6 @@ ul li::before {
   border: none;
   border-radius: 0.3em;
   background-color: var(--clr-accent);
-
 }
 
 #theme-switcher {
