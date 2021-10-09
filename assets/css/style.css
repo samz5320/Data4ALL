@@ -208,13 +208,13 @@ ul li::before {
 #db-search-form {
   display: flex;
   align-items: center;
-  margin: 1em 0;
+  
 }
 
 #db-search-form input {
   background: transparent;
   color: var(--text-color);
-  border-color: black;
+  border-color:var(--clr-font);
   border-radius: 35px;
   height: 30px;
   padding: 1.1em .90em;
