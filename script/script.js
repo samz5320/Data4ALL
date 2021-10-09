@@ -74,7 +74,7 @@ click.forEach((e)=>{
     return function() {
       if (!clicked) {
         var change = this.innerHTML;
-        this.innerHTML = "copied";
+        this.innerHTML = "copied!";
         clicked = true;
         setTimeout(function() {
           this.innerHTML = change;
