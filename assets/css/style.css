@@ -10,10 +10,14 @@
   --clr-beg: #ffa500;
   --clr-int: #ff6347;
   --clr-adv: #adff2f;
+  --clr-shadow: #d1d9e6;
+  --clr-light: #fff;
   --clr-dark-opc: rgba(0, 0, 0, 0.1);
   /* Color Palette - dark mode */
   --clr-dm-main: #1f2329;
   --clr-dm-font: #fff;
+  --clr-dm-shadow: #30343a;
+  --clr-dm-light: #2a2d32;
 }
 
 *,
@@ -39,6 +43,8 @@
 .dark-theme {
   --clr-main: var(--clr-dm-main);
   --clr-font: var(--clr-dm-font);
+  --clr-shadow: var(--clr-dm-shadow);
+  --clr-light: var(--clr-dm-light);
 }
 
 .dark-theme #theme-switcher {
@@ -208,16 +214,20 @@ ul li::before {
 #db-search-form {
   display: flex;
   align-items: center;
-  
 }
 
 #db-search-form input {
   background: transparent;
   color: var(--text-color);
-  border-color:var(--clr-font);
+  border-color: var(--clr-dark-opc);
+  box-shadow: 0.125em 0.125em 0.375em var(--clr-light) inset,
+    -0.125em -0.125em 0.75em var(--clr-shadow) inset;
   border-radius: 35px;
   height: 30px;
-  padding: 1.1em .90em;
+  padding: 1.1em 0.9em;
+}
+#db-search-form input:focus {
+  outline: none;
 }
 
 .nav-links a {
