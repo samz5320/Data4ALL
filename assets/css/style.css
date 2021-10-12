@@ -572,3 +572,19 @@ a {
 .d-title li::before {
   list-style-type: none;
 }
+
+nav li:hover{
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 120%;
+  margin-left: 0px;
+  padding-left: 20px;
+  background-color: whitesmoke;
+}
+
+header h4:hover{
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 110%;
+  padding: 10px;
+}
