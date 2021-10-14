@@ -461,6 +461,19 @@ ul li::before {
   height: fit-content;
 }
 
+@media (max-width:500px){
+  .title{
+  justify-content: space-around;
+
+
+  }
+  #db-search-form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+}
+
 .title .heading h1 {
   letter-spacing: 2px;
   left: 50px;
