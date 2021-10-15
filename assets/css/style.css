@@ -575,6 +575,11 @@ a {
   cursor: pointer;
 }
 
+}
+.copy-button:hover {
+    background: #82d8d8;
+}
+
 @media (max-width: 768px) {
   body {
     display: flex;
