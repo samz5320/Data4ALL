@@ -380,7 +380,9 @@ ul li::before {
     padding: 0 2em 0 0;
     border: none;
   }
-
+div :hover {
+	background-color: red;
+}
   .burger {
     display: none;
   }
