@@ -1014,18 +1014,25 @@
           </div>
         </div>
 
-	<div class="card">
-            <p class="d-title">translations Dataset</p>
-            <div class="util">
-                <div class="d-logo">
-                    <button class="logo-button"><a href="./datasets/translations.csv" download="translations.csv">
-                        <ion-icon name="download-outline"></ion-icon></a></button>
-                </div>
-                <div class="copy-link">
-                    <button class="copy-button">Copy Link</button>
-                </div>
+	<div class="card beginner-db">
+            <p class="d-title">
+              <ul>
+              <li class="beginner">translations data</li>
+              </ul>
+            </p>
+          <div class="util">
+            <div class="d-logo">
+              <button class="logo-button">
+                <a id="d-translations" href="./datasets/translations.csv" download="translations.csv">
+                  <ion-icon name="download-outline"></ion-icon>
+                </a>
+              </button>
             </div>
-        </div> 
+            <div class="copy-link">
+              <button class="copy-button" onclick="copy('d-translations')">Copy Link</button>
+            </div>
+          </div>
+        </div>
         
         <!-- ----copy codeblock from here ------- -->
         <!-- ----replace iris.csv with the name of your dataset file----- -->
