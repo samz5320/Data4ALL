@@ -526,7 +526,6 @@ ul li::before {
 }
 
 .card:hover {
-
   box-shadow: 0px 0px 10px 2px #bfbfbf;
   border: none;
 }
