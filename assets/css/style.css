@@ -360,7 +360,7 @@ ul li::before {
   display: none;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
   nav {
     display: flex;
     position: static;
@@ -368,6 +368,7 @@ ul li::before {
     margin-left: 5em;
     padding: 0;
     border: none;
+    
   }
 
   nav ul {
