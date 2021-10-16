@@ -174,6 +174,9 @@ nav ul li {
   padding-bottom: 1.5em;
   border-bottom: 1px solid var(--clr-dark-opc);
 }
+.nav-links li a:hover{
+  color:#61c7c7
+}
 
 li {
   list-style: none;
