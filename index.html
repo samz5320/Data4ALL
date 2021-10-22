@@ -74,6 +74,21 @@
     <div class="cards">
         <div class="card beginner-db">
             <p class="d-title">
+                <ul><li class="beginner">Chess Game Dataset</li></ul>
+            </p>
+            <div class="util">
+                <div class="d-logo">
+                    <button class="logo-button"><a id="d-chess" href="./datasets/games.csv" download="games.csv">
+                        <ion-icon name="download-outline"></ion-icon></a></button>
+                </div>
+                <div class="copy-link">
+                    <button class="copy-button" onclick="copy('d-chess')">Copy Link</button> <!--Created copy() function takes id of anchor tag to copy its href to clipboared-->
+                </div>
+            </div>
+        </div>
+
+        <div class="card beginner-db">
+            <p class="d-title">
                 <ul><li class="beginner">Indian Colleges Dataset</li></ul>
             </p>
             <div class="util">
@@ -87,6 +102,7 @@
             </div>
         </div>
 
+        
 
         <div class="card beginner-db">
             <p class="d-title">
@@ -114,6 +130,21 @@
                 </div>
                 <div class="copy-link">
                     <button class="copy-button" onclick="copy('d-mushroom')">Copy Link</button>
+                </div>
+            </div>
+        </div>
+	
+	<div class="card beginner-db">
+            <p class="d-title">
+                <ul><li class="beginner">Covid Vaccin(States wise) dataset</li></ul>
+            </p>
+            <div class="util">
+                <div class="d-logo">
+                    <button class="logo-button"><a id="d-vaccin" href="./datasets/covid_vaccine_statewise.csv" download="covid_vaccine_statewise.csv">
+                        <ion-icon name="download-outline"></ion-icon></a></button>
+                </div>
+                <div class="copy-link">
+                    <button class="copy-button" onclick="copy('d-vaccin')">Copy Link</button>
                 </div>
             </div>
         </div>
@@ -943,6 +974,7 @@
                 </div>
         </div>
 
+
 	<div class="card intermediate-db">
             <p class="d-title">
                 <ul><li class="inter">Lung Cancer Survey</li></ul>
@@ -957,6 +989,23 @@
                     </div>
                 </div>
         </div>
+
+        <div class="card intermediate-db">
+            <p class="d-title">
+                <ul><li class="inter">Electricity Production By Source</li></ul>
+            </p>
+                <div class="util">
+                    <div class="d-logo">
+                        <button class="logo-button"><a id="d-electricity-production" href="./datasets/Electricity_Production_By_Source.csv" download="Electricity_Production_By_Source.csv">
+                            <ion-icon name="download-outline"></ion-icon></a></button>
+                    </div>
+                    <div class="copy-link">
+                        <button class="copy-button" onclick="copy('d-electricity-production')">Copy Link</button>
+                    </div>
+                </div>
+        </div>
+
+   
 	
 
         <div class="card beginner-db">
@@ -1038,18 +1087,124 @@
           </div>
         </div>
 
-	<div class="card">
-            <p class="d-title">time series covid19</p>
-            <div class="util">
-                <div class="d-logo">
-                    <button class="logo-button"><a id="d-time-series-covid19" href="./datasets/time_series_covid19.csv" download="time_series_covid19.csv">
-                        <ion-icon name="download-outline"></ion-icon></a></button>
-                </div>
-                <div class="copy-link">
-                    <button class="copy-button" onclick="copy('d-time-series-covid19')>Copy Link</button>
-                </div>
+
+        <div class="card beginner-db">
+            <p class="d-title">
+              <ul>
+              <li class="beginner">Time series covid19</li>
+              </ul>
+            </p>
+          <div class="util">
+            <div class="d-logo">
+              <button class="logo-button">
+                <a id="d-time-series-covid19" href="./datasets/time_series_covid19.csv" download="time_series_covid19.csv">
+                  <ion-icon name="download-outline"></ion-icon>
+                </a>
+              </button>
             </div>
-        </div> 
+            <div class="copy-link">
+              <button class="copy-button" onclick="copy('d-time-series-covid19')">Copy Link</button>
+            </div>
+          </div>
+        </div>
+
+	
+
+	<div class="card beginner-db">
+            <p class="d-title">
+              <ul>
+              <li class="beginner">translations data</li>
+              </ul>
+            </p>
+          <div class="util">
+            <div class="d-logo">
+              <button class="logo-button">
+                <a id="d-translations" href="./datasets/translations.csv" download="translations.csv">
+                  <ion-icon name="download-outline"></ion-icon>
+                </a>
+              </button>
+            </div>
+            <div class="copy-link">
+              <button class="copy-button" onclick="copy('d-translations')">Copy Link</button>
+            </div>
+          </div>
+        </div>
+
+     <div class="card beginner-db">
+            <p class="d-title">
+              <ul>
+              <li class="beginner">Annual_surveys_data</li>
+              </ul>
+            </p>
+          <div class="util">
+            <div class="d-logo">
+              <button class="logo-button">
+                <a id="d-Annual_surveys_data" href="./datasets/Annual_surveys_data.csv" download="Annual_surveys_data.csv">
+                  <ion-icon name="download-outline"></ion-icon>
+                </a>
+              </button>
+            </div>
+            <div class="copy-link">
+              <button class="copy-button" onclick="copy('d-Annual_surveys_data')">Copy Link</button>
+            </div>
+          </div>
+        </div>
+
+    <div class="card beginner-db">
+        <p class="d-title">
+            <ul><li class="beginner">Population by country 2020</li></ul>
+        </p>
+        <div class="util">
+            <div class="d-logo">
+                <button class="logo-button"><a id="d-population_country" href="./datasets/population_by_country_2020.csv" download="population_by_country_2020">
+                    <ion-icon name="download-outline"></ion-icon></a></button>
+            </div>
+            <div class="copy-link">
+                <button class="copy-button" onclick="copy('d-population_country')">Copy Link</button>
+            </div>
+        </div>
+
+   </div>
+
+	<div class="card beginner-db">
+            <p class="d-title">
+              <ul>
+              <li class="beginner">Hotel Properties Data</li>
+              </ul>
+            </p>
+          <div class="util">
+            <div class="d-logo">
+              <button class="logo-button">
+                <a id="d-hotels-citywide" href="./datasets/hotels-properties-citywide-1.csv" download="hotels-citywide.csv">
+                  <ion-icon name="download-outline"></ion-icon>
+                </a>
+              </button>
+            </div>
+            <div class="copy-link">
+              <button class="copy-button" onclick="copy('d-hotels-citywide')">Copy Link</button>
+            </div>
+          </div>
+        </div>
+
+	<div class="card beginner-db">
+            <p class="d-title">
+              <ul>
+              <li class="beginner">Hospital General Information</li>
+              </ul>
+            </p>
+          <div class="util">
+            <div class="d-logo">
+              <button class="logo-button">
+                <a id="d-hospitall-general" href="./datasets/Hospital_General_Information.csv" download="hotels-citywide.csv">
+                  <ion-icon name="download-outline"></ion-icon>
+                </a>
+              </button>
+            </div>
+            <div class="copy-link">
+              <button class="copy-button" onclick="copy('d-hostpital-general')">Copy Link</button>
+            </div>
+          </div>
+        </div>
 
         
         <!-- ----copy codeblock from here ------- -->
@@ -1068,7 +1223,9 @@
         </div> -->
         <!--  copy codeblock till here   -->
         <!--  paste codeblock  here and make changes  -->
-    </div>
+        
+       </div>
+
 </section>
 
 
