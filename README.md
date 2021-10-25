@@ -4,7 +4,7 @@
 
 ## **About Us 😃:**
 ***
-**DATA4ALL** is completely community driven website for providing free data sets to developers which can help them to develop exciting user driven application and make great impact to the world. 
+**DATA4ALL** is a completely community-driven website for providing free data sets to developers which can help them to develop exciting user-driven applications and make a great impact on the world. 
 
 <h3 align=center> <a href="https://samz5320.github.io/Data4ALL/"> Our Website 💻 </a></h3>
 
@@ -12,12 +12,13 @@
 
 ## **Features 😎🗻:**
 
-Since, It is a fresh new project and still it in development phase.
-we have following features :
+Since It is a fresh new project and still in the development phase. 
+we have the following features :
 
-  **1> You can filter out datasets with level :"Beginner , Intermediate ,Advanced".**
+
+  **1> You can filter out datasets with levels: "Beginner, Intermediate, Advanced".**
   
-  **2> You can select theme of your choice : It can be Light or Dark.**
+  **2> You can select a theme of your choice: It can be Light or Dark.**
   
   **3> You can download the datasets.**
   
