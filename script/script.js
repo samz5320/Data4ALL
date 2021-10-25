@@ -1,6 +1,7 @@
 const burger = document.querySelector(".burger");
 const nav = document.querySelector("nav");
 const navLinks = document.querySelectorAll('nav li');
+const click = document.querySelectorAll('.copy-button');
 
 burger.addEventListener('click', toggleNav );
 
@@ -66,3 +67,20 @@ function copy(id) {
   Url = document.getElementById(id).href
   navigator.clipboard.writeText(Url)
 }
+
+// fixed the copy button and change the text to copied
+click.forEach((e)=>{
+  e.addEventListener("click", function(clicked) {
+    return function() {
+      if (!clicked) {
+        var change = this.innerHTML;
+        this.innerHTML = "copied!";
+        clicked = true;
+        setTimeout(function() {
+          this.innerHTML = change;
+          clicked = false;
+        }.bind(this), 1000);
+      }
+    };
+  }(false), this);
+})

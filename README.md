@@ -4,7 +4,8 @@
 
 ## **About Us 😃:**
 ***
-**DATA4ALL** is a completely community-driven website for providing free data sets to developers which can help them to develop exciting user-driven applications and make a great impact on the world. 
+
+**DATA4ALL** is a completely community driven website for providing free data sets to developers which can help them to develop exciting user driven applications and make a great impact on the world. 
 
 <h3 align=center> <a href="https://samz5320.github.io/Data4ALL/"> Our Website 💻 </a></h3>
 
@@ -12,13 +13,13 @@
 
 ## **Features 😎🗻:**
 
-Since It is a fresh new project and still in the development phase. 
+
+Since, It is a fresh new project and still in development phase.
 we have the following features :
 
-
-  **1> You can filter out datasets with levels: "Beginner, Intermediate, Advanced".**
+  **1> You can filter out datasets with levels : "Beginner, Intermediate, Advanced".**
   
-  **2> You can select a theme of your choice: It can be Light or Dark.**
+  **2> You can select a theme of your choice : It can be Light or Dark.**
   
   **3> You can download the datasets.**
   
@@ -34,7 +35,7 @@ we have the following features :
 
 <h3 align=center> Light Theme </h3>
 
-<img src="./assets/images/Light_theme.png"/>
+<img src="./assets/images/light_theme.png"/>
 
 <h3 align=center> Dark Theme </h3>
 
@@ -49,9 +50,9 @@ we have the following features :
 
 <h3 align="center"> Want To Add More 🤔??</h3>
 
-**Lets Contribute to our project 🤝**
+**Let's Contribute to our project 🤝**
 
-**Read the <a href = ./CONTRIBUTING.md>Contribution Guidlines</a> to follow smooth process**
+**Read the <a href = ./CONTRIBUTING.md>Contribution Guidelines</a> to follow a smooth process**
 
 
 ***
@@ -60,13 +61,14 @@ we have the following features :
 
 
 1. Add your datasets file in the datasets folder
+
 2. make changes in index.html
 
 3. follow the comments for more help in the index.html file
 
 4. test the changes in your localhost
 
-5. if everything looks good ,go ahead and send a Pull Request.
+5. if everything looks good, go ahead and send a Pull Request.
 
 6. Sit back and relax as your changes get reviewed.
 
