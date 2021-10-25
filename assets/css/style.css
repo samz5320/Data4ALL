@@ -363,7 +363,7 @@ ul li::before {
   display: none;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
   nav {
     display: flex;
     position: static;
@@ -371,6 +371,7 @@ ul li::before {
     margin-left: 5em;
     padding: 0;
     border: none;
+    
   }
 
   nav ul {
@@ -517,7 +518,7 @@ ul li::before {
   border-radius: 4px;
   box-shadow: rgba(90, 90, 90, 0.2) 0px 2px 8px 0px;
   display: flex;
-
+  
   display: none;
   flex-direction: row;
   flex-wrap: wrap;
@@ -526,6 +527,11 @@ ul li::before {
   width: fit-content;
   margin: 20px;
   padding: 5px;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 10px 2px #bfbfbf;
+  border: none;
 }
 
 .show {
@@ -576,6 +582,11 @@ a {
 
 .copy-button {
   cursor: pointer;
+}
+
+}
+.copy-button:hover {
+    background: #82d8d8;
 }
 
 @media (max-width: 768px) {
