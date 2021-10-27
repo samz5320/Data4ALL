@@ -519,7 +519,7 @@ ul li::before {
   box-shadow: rgba(90, 90, 90, 0.2) 0px 2px 8px 0px;
   display: flex;
   
-  display: none;
+  /* display: none; */
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;

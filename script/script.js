@@ -1,7 +1,39 @@
+// Load all datasets immediately
+(function populateDatasets() {
+  const root = document.getElementById('root');
+  const stringOutput = datasets.map(d => {
+      return `
+      <div id=${d.id} class="card ${d.classification}-db">
+          <p class="d-title">
+              <ul>
+                  <li class=${d.classification}>${d.name}</li>
+              </ul>
+          </p>
+          <div class="util">
+              <div class="d-logo">
+                  <button class="logo-button"><a href='${d.pathname}' download=${d.download}>
+                          <ion-icon name="download-outline"></ion-icon>
+                      </a></button>
+              </div>
+              <div class="copy-link">
+                  <!-- <button class="copy-button" onclick="copy('${d.id}')">Copy Link</button> -->
+                  <button class="copy-button">Copy Link</button>
+              </div>
+          </div>
+      </div>
+      `
+  }).join('');
+  
+  let frag = document.createRange().createContextualFragment(stringOutput);
+  return root.appendChild(frag);
+})();
+
+
 const burger = document.querySelector(".burger");
 const nav = document.querySelector("nav");
 const navLinks = document.querySelectorAll('nav li');
 const click = document.querySelectorAll('.copy-button');
+const allData = document.querySelectorAll('.card');
 
 burger.addEventListener('click', toggleNav );
 
@@ -63,24 +95,15 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-function copy(id) {
-  Url = document.getElementById(id).href
-  navigator.clipboard.writeText(Url)
+
+function copyLinkClicked(e) {
+  const el = e.target;
+  if (el.className !== 'copy-button') return; // don't continue if button not clicked
+  Url = this.querySelector('a').href;
+  navigator.clipboard.writeText(Url);
+  const originalText = el.textContent;
+  el.textContent = "copied!";
+  return setTimeout(() => {el.innerHTML = originalText;}, 1000);
 }
 
-// fixed the copy button and change the text to copied
-click.forEach((e)=>{
-  e.addEventListener("click", function(clicked) {
-    return function() {
-      if (!clicked) {
-        var change = this.innerHTML;
-        this.innerHTML = "copied!";
-        clicked = true;
-        setTimeout(function() {
-          this.innerHTML = change;
-          clicked = false;
-        }.bind(this), 1000);
-      }
-    };
-  }(false), this);
-})
+allData.forEach(card => card.addEventListener("click", copyLinkClicked));
