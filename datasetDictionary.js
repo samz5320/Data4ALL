@@ -494,5 +494,26 @@ const datasets = [{
         pathname: "/Data4ALL/datasets/Fortune_1000.csv",
         download: "Fortune_1000_Companies",
         classification: "beginner"
-    }
+    },
+    {
+        name: "Salvation Army World Service Office",
+        id: "d-salvation-army",
+        pathname: "/Data4ALL/datasets/Salvation Army World Service Office - Activities.csv",
+        download: "salvation-army",
+        classification: "beginner"
+    },
+    {
+        name: "Dogecoin Dataset",
+        id: "d-dogecoin",
+        pathname: "/Data4ALL/datasets/DOGE-USD.csv",
+        download: "Dogecoin.csv",
+        classification: "beginner"
+    },
+    {
+        name: "Electronic Card-Transactions Aug-2021",
+        id: "d-electronic-card",
+        pathname: "/Data4ALL/datasets/electronic-card-transactions-aug-2021-csv-tables.csv",
+        download: "electronic-card-transactions-aug-2021-csv-tables.csv",
+        classification: "beginner"
+    } 
 ];
