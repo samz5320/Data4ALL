@@ -4,6 +4,7 @@
 
 ## **About Us 😃:**
 ***
+
 **DATA4ALL** is a completely community driven website for providing free data sets to developers which can help them to develop exciting user driven applications and make a great impact on the world. 
 
 <h3 align=center> <a href="https://samz5320.github.io/Data4ALL/"> Our Website 💻 </a></h3>
@@ -11,6 +12,7 @@
 ***
 
 ## **Features 😎🗻:**
+
 
 Since, It is a fresh new project and still in development phase.
 we have the following features :
